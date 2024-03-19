@@ -1,0 +1,90 @@
+/* ActiveListing.css */
+
+.ActiveListing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .ActiveListing-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px; /* Reduced margin */
+  }
+  
+  .ActiveListing-container select,
+  .ActiveListing-container input[type="text"],
+  .ActiveListing-container button {
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 25px; /* Reduced margin */
+    border: 2px solid #000000;
+    border-radius: 50px;
+  }
+  
+  .ActiveListing-container button {
+    padding: 8px 20px;
+    margin-inline: 5px; /* Reduced margin */
+    border: none;
+    border-radius: 50px;
+    background-color: #036cec;
+    color: #fff;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  .ActiveListing-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ActiveListing-container li {
+    margin-bottom: 10px; /* Reduced margin */
+  }
+  
+  .ActiveListing-container h3 {
+    font-size: 18px;
+    margin-bottom: 5px; /* Reduced margin */
+  }
+  
+  .ActiveListing-container p {
+    margin-bottom: 2px; /* Reduced margin */
+  }
+  
+
+
+
+  .container textarea {
+    width: 42%;
+    padding: 10px;
+    margin-top: 5px; /* Adjust the margin as needed */
+    vertical-align:middle; 
+    border: 1px solid #060606;
+    border-radius: 5px;
+    /* Align the text to the top */
+  }
+
+
+
+  .post-item {
+    border: 1px solid #000000; /* Add border for each item */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 10px; /* Add padding to create space between content and border */
+    margin-bottom: 10px;
+    margin-left: 1%; /* Add margin to separate items */
+  }
+  
+  .post-item h3 {
+    margin-top: 0; /* Remove default margin for h3 */
+  }
+  
+  .post-item p {
+    margin: 5px 0; /* Add margin for paragraphs */
+  }
+  
+  /* Style for date and category */
+  .post-item .date,
+  .post-item .category {
+    font-style: italic; /* Italicize the text */
+  }
+  

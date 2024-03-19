@@ -1,0 +1,45 @@
+/* Style the row */
+.row {
+    display: flex; /* Use flexbox layout */
+  }
+  
+  /* Style the left column */
+  .leftcolumn {
+    flex: 1; /* Use remaining space */
+    padding-right: 10px; /* Add right padding */
+  }
+  
+  /* Style the right column */
+  .rightcolumn {
+    flex: 1; /* Use remaining space */
+    padding-left: 10px; /* Add left padding */
+  }
+  
+  /* Style ul */
+  ul {
+    list-style: none; /* Remove default list style */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow: hidden; /* Clear floats */
+    background-color: red; /* Red background color */
+  }
+  
+  /* Style li */
+  li {
+    float: left; /* Float the list items */
+  }
+  
+  /* Style links within li */
+  li a {
+    display: block; /* Display as block */
+    color: antiquewhite; /* Text color */
+    text-align: center; /* Center text */
+    padding: 14px 20px; /* Padding */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Hover effect on links */
+  li a:hover {
+    background-color: blue; /* Blue background color on hover */
+  }
+  

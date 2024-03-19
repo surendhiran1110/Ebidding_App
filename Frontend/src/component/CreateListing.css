@@ -1,0 +1,121 @@
+
+  .container {
+    width: 50%; /* Adjust as needed */
+    margin: 0 auto;
+    text-align: center;
+  
+  }
+
+  .container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;  
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .container form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container label {
+    margin-right: 30px;
+    font-weight: bold;
+  }
+
+  .container input[type="text"],
+  /* .container textarea, */
+  .container input[type="number"],
+  .container input[type="date"] {
+    margin-top: 1%;
+    height: 10px;
+    width: 40%;
+    padding: 18px;
+    border: 1px solid #060606;
+    border-radius: 5px;
+  }
+
+  .label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+ 
+
+
+  .container button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+
+  .container button[type="submit"]{
+      padding: 12px 10px;
+      border-radius: 50px;
+      border: 0;
+      background-color: rgb(5, 123, 242);
+      letter-spacing: 1.5px;
+      font-size: 20px;
+      transition: all 0.3s ease;
+      box-shadow: rgb(5, 123, 242)0px 10px 0px 0px;
+      color: hsl(0, 0%, 100%);
+      cursor: pointer;
+      width: 150px;
+
+    }
+    
+    .container button[type="submit"]:hover {
+      box-shadow: rgb(5, 123, 242) 0px 7px 0px 0px;
+    }
+    
+    .container button[type="submit"]:active {
+      background-color: rgb(5, 123, 242);
+      /*50, 168, 80*/
+      box-shadow: rgb(5, 123, 242) 0px 0px 0px 0px;
+      transform: translateY(5px);
+      transition: 200ms;
+    }
+
+  /* Add margin between form elements */
+  .container label:not(:last-child) {
+    margin-bottom: 30px; /* Adjust as needed */
+  }
+
+  /* Success message style */
+  .success-message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    color: #155724;
+  }
+  .container button {
+    padding: 17px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(5, 123, 242);
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    box-shadow: rgb(5, 123, 242) 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+
+  button:hover {
+    box-shadow: rgb(5, 123, 242) 0px 7px 0px 0px;
+  }
+
+  button:active {
+    background-color: rgb(5, 123, 242);
+    /*50, 168, 80*/
+    box-shadow: rgb(5, 123, 242) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+  }

@@ -23,6 +23,6 @@ The eBidding Application is a web-based platform designed to facilitate online a
 - **Deployment**: Docker, AWS/GCP/Azure (for cloud deployment)
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/yourusername/eBidding_App.git`
+1. Clone the repository: `git clone https://github.com/surendhiran1110/eBidding_App.git`
 2. Navigate to the project directory: `cd eBidding_App`
 3. Install dependencies for frontend and backend:
